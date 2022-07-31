@@ -1,0 +1,68 @@
+*{
+    text-align: center;
+    
+}
+.textoazul{
+    color: #0047c6;
+}
+body{
+    background-color: #fff5e6;
+}
+
+#simbolo{
+    width: 200px;
+
+}
+#imagemcozinha{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+#imagemcontratequemluta{
+    width: 200px;
+}
+#divcozinha{
+    background-image: url(../imagem\ do\ curso/QUADRADO.png);
+    background-color: #0047c6;
+    text-align:center;
+    font-size: large;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#divluta{
+    position: relative;
+    text-align:center;
+    font-size: large;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    color:#fff
+}
+
+
+#divluta::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(../imagem\ do\ curso/QUADRADO.png);
+    transform: rotate(180deg);
+    z-index: -1;
+    background-color: #E8621E;
+    
+} 
+.botao{
+    background-color:#00B296;
+}
+
+.container {
+    margin: 0 auto;
+}
